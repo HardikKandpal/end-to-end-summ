@@ -1,10 +1,10 @@
 import os
 import urllib.request as request
 import zipfile
-from textsumm.logging import logger
-from textsumm.utils.common import get_size
+from texts umm.logging import logger
+from texts umm.utils.common import get_size
 from pathlib import Path
-from textsumm.entity import DataIngestionConfig
+from texts umm.entity import DataIngestionConfig
 
 
 class DataIngestion:

@@ -1,10 +1,6 @@
 from textsumm.constants import *
 from textsumm.utils.common import read_yaml, create_directories
-from textsumm.entity import (DataIngestionConfig,
-                                   DataValidationConfig,
-                                   DataTransformationConfig,
-                                   ModelTrainerConfig,
-                                   ModelEvaluationConfig)
+from textsumm.entity import (DataIngestionConfig)
 
 class ConfigurationManager:
     def __init__(
