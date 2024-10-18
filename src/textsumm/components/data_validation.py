@@ -2,7 +2,7 @@ import os
 from textsumm.logging import logger
 from textsumm.entity import DataValidationConfig
 
-class DataValiadtion:
+class DataValidation:
     def __init__(self, config: DataValidationConfig):
         self.config = config
 
